@@ -1,0 +1,17 @@
+At the beginning of the project idea, the game was inspired from a smaller video game from Game Jam. To be clear, Game Jam is a contest where participants create games from scratch within a small period of time. This means that we have already considered the feasibility of the making as we did not take a serious project. However, it is not without any consideration, according to our plan, this tower defense game would be available to both multiplayer mode and single player mode. As our research shows, Unity would support an online server with upto 20 players. This led us to some hesitations, also a limitation, that the game will not support online-player mode at first. As a result, our scope was to create a game that only enables multiplayers in local areas when their devices are connected. This will allow us to investigate further to see if the game would receive much attention or not and from this foundation, the game could jump into an online server or not.
+
+ Unity Pro is also expensive for our group. Though it is mostly acceptable as we have no need for the Pro version, we are not happy to have Unity logo on startup of the game. Therefore, we mark this as another disadvantage.
+
+Another issue bothering us is level design, as we mentioned earlier in the description, the game heavily relies on collaboration. This develops some restrictions in level design, because we can reuse maps for single player for multiplayers. Eventually, this could be a huge limitation that we may not provide a good diversity for the game. The way we could look deeper into the solution may be to allow players to build maps and with high ratings, we could buy the map with reward for those players. This scope may be problematic, we think players may abuse this method to get reward.
+
+  Role
+We will have all of us as programmers and we distribute work among members and Khoa will be the lead developer as he has experience in making video games already.
+
+Besides, we are also assigned with additional tasks:
+Khoa: graphic designer, Khoa could make artwork and create characters as well as environment for us. He is responsible for User Interface graphic and the in game graphic.
+
+Kent: sound designer, Kent has an extremely profound love for music, so we let him challenge himself to the world of creating background music and SFX( sound effect).
+
+Phong: lead programmer, Phong would undertake tasks under the programming field, and work as a substitute when other teammates have to work on non-IT professional tasks such as creating graphics or sound.
+
+Nhat: Manager and optimizer, Nhat is responsible for our time management and schedule. He learnt about business before so we believe he would perform this task well to maximize the budget and time.

@@ -27,3 +27,116 @@ function ProfileSelect(index){
     profileImage.style.backgroundImage="url('Asset/Picture/NhatPose.jpg')"
   }
 }
+function CareerPlan(index)
+{
+  var khoaCareer=document.getElementById('KhoaCareer');
+  var kentCareer=document.getElementById('KentCareer');
+  var phongCareer=document.getElementById('PhongCareer');
+  var nhatCareer=document.getElementById('NhatCareer');
+  if(index==0)
+  {
+    //stretch the chosen container
+    khoaCareer.style.width="62%";
+    var child=khoaCareer.childNodes;
+    child[7].innerHTML="The majority of Crafty Circus 's members have already experienced other programming languages. Additionally, we have 3 anticipated ideal jobs that are about game development. Therefore, the best role for the team is Game Developer. Game Developer does not appear in the list, however, we can presume a game is a software as they are much or less similar in terms of making. According to the Burning Glass Data, our title scores at the 19th position in the list of in-demand job titles to employers. Game creation requires a handful of abilities, especially, we will have to work with people from different areas. For example, programmers and artists usually have different ways of approaching the problem, this brings us the first consideration which is communication. Coming next are skills that every programmer needs to master, problem solving. Furthermore, Game development is a type of creative work meaning skill that we need to consider is creativity. We will be working on C# especially parts related to the Unity library. Besides, graphic design will be a consideration as people are extremely interested in appearance."
+    Collapse(index)
+  }
+  if(index==1)
+  {
+    //stretch the chosen container
+    kentCareer.style.width="62%";
+    var child=kentCareer.childNodes;
+    child[7].innerHTML="To add a level of complexity to your transitions, you can use the power of cubic beziers. Most of the time, if you’re just developing websites, you probably won’t need to mess with cubic beziers much. But, if you do and because I am barely competent with math (d’aww), I will let someone who is much better with numbers do the hard work to explain those. Check out The Art of Web for their excellent cubic bezier documentation. Transitions also work with images and can create some really cool effects. In fact, you can make entire slideshows with CSS transitions and images. But we’ll be covering that in another tutorial that’s coming soon!";
+    Collapse(index)
+  }
+  if(index==2)
+  {
+    //stretch the chosen container
+    phongCareer.style.width="62%";
+    var child=phongCareer.childNodes;
+    child[7].innerHTML="That old, familiar smell hit her first. Hay, strawberries, and sturdy wood. The courtyard of the Argentine Inn had a particular waft to it that brought the ache of memories long past: a hundred concerts, a thousand faces lit by lantern light, and—most painful of all—a time when things were simpler and happier in Demacia. But these days, that version of her home country felt distant. Worlds away. When she first spotted her old friend Etra emerging from the doorway of the inn, her breath hitched—maybe this, too, was different. But Etra’s eyes went wide. She shrieked with joy, and as she ran forward to wrap Sona up in her arms, Sona breathed a little sigh of relief. Some things didn’t change after all. “You got my letter!” Etra said, and squeezed her tight. Sona nodded. As Etra released her, she stood back to get a good look, still clasping Sona’s hands. “Someone’s been traveling,” she said, impressed. As if noticing Sona was on edge, Etra paused, released her hands, and slipped into the rough sign language they’d forged over a lifetime. All is well? It was a relief to be able to sign back. To be understood by someone who loved her. Yes, of course, Sona responded, whether it was true or not. Missed you terribly, though. She held her hands a little lower. Didn’t want passersby to see the sharp gestures, the twitching fingers, and draw the wrong conclusions.";
+    Collapse(index)
+  }
+  if(index==3)
+  {
+    //stretch the chosen container
+    nhatCareer.style.width="62%";
+    var child=nhatCareer.childNodes;
+    child[7].innerHTML="To add a level of complexity to your transitions, you can use the power of cubic beziers. Most of the time, if you’re just developing websites, you probably won’t need to mess with cubic beziers much. But, if you do and because I am barely competent with math (d’aww), I will let someone who is much better with numbers do the hard work to explain those. Check out The Art of Web for their excellent cubic bezier documentation. Transitions also work with images and can create some really cool effects. In fact, you can make entire slideshows with CSS transitions and images. But we’ll be covering that in another tutorial that’s coming soon!"
+    Collapse(index)
+  }
+}
+function Collapse(chosen)
+{
+  var khoaCareer=document.getElementById('KhoaCareer');
+  var kentCareer=document.getElementById('KentCareer');
+  var phongCareer=document.getElementById('PhongCareer');
+  var nhatCareer=document.getElementById('NhatCareer');
+  if(chosen==0)
+  {
+    kentCareer.style.width="10%";
+    var childKent=kentCareer.childNodes;
+    childKent[7].innerHTML="";
+    phongCareer.style.width="10%";
+    var childPhong=phongCareer.childNodes;
+    childPhong[7].innerHTML="";
+    nhatCareer.style.width="10%";
+    var childNhat=nhatCareer.childNodes;
+    childNhat[7].innerHTML="";
+  }
+  if(chosen==1)
+  {
+    khoaCareer.style.width="10%";
+    var childKhoa=khoaCareer.childNodes;
+    childKhoa[7].innerHTML="";
+    phongCareer.style.width="10%";
+    var childPhong=phongCareer.childNodes;
+    childPhong[7].innerHTML="";
+    nhatCareer.style.width="10%";
+    var childNhat=nhatCareer.childNodes;
+    childNhat[7].innerHTML="";
+  }
+  if(chosen==2)
+  {
+    kentCareer.style.width="10%";
+    var childKent=kentCareer.childNodes;
+    childKent[7].innerHTML="";
+    khoaCareer.style.width="10%";
+    var childKhoa=khoaCareer.childNodes;
+    childKhoa[7].innerHTML="";
+    nhatCareer.style.width="10%";
+    var childNhat=nhatCareer.childNodes;
+    childNhat[7].innerHTML="";
+  }
+  if(chosen==3)
+  {
+    kentCareer.style.width="10%";
+    var childKent=kentCareer.childNodes;
+    childKent[7].innerHTML="";
+    phongCareer.style.width="10%";
+    var childPhong=phongCareer.childNodes;
+    childPhong[7].innerHTML="";
+    khoaCareer.style.width="10%";
+    var childKhoa=khoaCareer.childNodes;
+    childKhoa[7].innerHTML="";
+  }
+}
+function Restretch()
+{
+  var khoaCareer=document.getElementById('KhoaCareer');
+  var kentCareer=document.getElementById('KentCareer');
+  var phongCareer=document.getElementById('PhongCareer');
+  var nhatCareer=document.getElementById('NhatCareer');
+  kentCareer.style.width="23%";
+  var childKent=kentCareer.childNodes;
+  childKent[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  phongCareer.style.width="23%";
+  var childPhong=phongCareer.childNodes;
+  childPhong[7].innerHTML=" orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  khoaCareer.style.width="23%";
+  var childKhoa=khoaCareer.childNodes;
+  childKhoa[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  nhatCareer.style.width="23%";
+  var childNhat=nhatCareer.childNodes;
+  childNhat[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+}

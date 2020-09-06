@@ -48,7 +48,7 @@ header text img{
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: auto;
-  height: 80px;
+  height: 50px;
   width: auto;
   cursor: pointer;
 }
@@ -154,22 +154,198 @@ background-color: rgba(195, 7, 63, .6);
 #TeamProfile #ProfileImage{
   width: 100%;
   height: auto;
+  background-repeat: no-repeat;
+  transition: height .5s ease-in-out;
   transition: background-image .5s ease-in-out;
 }
 #TeamProfile #ProfileImage .tpConcept{
   width: 70%;
-  height: 300px;
+  height: auto;
   border-radius: 50px;
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
    margin-left: auto;
    margin-right: auto;
-
+  transition: height .5s ease-in-out;
 }
 #TeamProfile #ProfileImage .tpConcept p{
   padding:30px;
   font-size: 14px;
   line-height: 1.5;
   color:#ccc;
+
+}
+#GroupProcess{
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #950740;
+}
+#GroupProcess .ProcessTitle{
+  display: inline-block;
+margin-left: 10%;
+background-color: #6f2232;
+width: 15%;
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+padding: 50px 20px;
+line-height: 2;
+}
+#GroupProcess .ProcessTitle p{
+  margin-top: -10px;
+  color:#999;
+text-align: center;
+font-size: 14px;
+text-transform: none;
+line-height: 1.5;
+}
+#GroupProcess .ProcessContent{
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  line-height: 1.5;
+  height: 100%;
+  color:#ccc;
+  padding:50px 20px;
+  margin-left: 3%;
+}
+#CareerPlan{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+.ReCareerPlan{
+width: 94%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+
+.ReCareerPlan div{
+  position: relative;
+  margin-left: .5%;
+  margin-right: .5%;
+  display: inline-block;
+  width: 23%;
+  height: 300px;
+  transition: width .7s ease-in-out 0s;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.ReCareerPlan div h1{
+  margin: 0 auto;
+  display: block;
+  color: #c3073f;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.ReCareerPlan div .lineDiv{
+  position: absolute;
+  height: 90%;
+  right: 0px;
+  width: 1px;
+  background-image: linear-gradient(#fff,#24252a);
+}
+.ReCareerPlan div h2{
+  margin: auto;
+  display: block;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.ReCareerPlan div p{
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #888;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#Tool{
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #950740;
+}
+#Tool .ToolTitle{
+display:inline-block;
+float: left;
+justify-content: center;
+margin-left: 10%;
+background-color: #6f2232;
+width: 15%;
+height: 300px;
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+padding: 0px 20px;
+line-height: 2;
+}
+#Tool .ToolTitle Text{
+  display: block;
+  margin-top: 100px;
+}
+#Tool .ToolTitle p{
+  margin-top: -10px;
+  color:#999;
+text-align: center;
+font-size: 14px;
+text-transform: none;
+line-height: 1.5;
+}
+#Tool .Selection{
+display: inline-block;
+width: 30%;
+height: inherit;
+}
+#Tool .GitTool{
+  display: flex;
+  float:left;
+  height: 280px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow:5px 5px 5px #000000;
+  cursor: pointer;
+}
+#Tool .Description{
+  position: relative;
+  display: inline-block;
+  width:40%;
+  height: inherit;
+}
+#Tool .Description Text{
+  display: block;
+  width:100%;
+  height: inherit;
+  position: absolute;
+}
+#Tool .Description Text h1{
+margin-top: 10px;
+text-transform: uppercase;
+}
+#Tool .Description Text div{
+  margin-top: 5px;
+  margin-left: 40px;
+  height: 4px;
+  width: 150px;
+  background-image:linear-gradient(to right,#d74177,#ffe98a);
+}
+#Tool .Description Text li{
+  color:#ccc;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 5px;
 }
