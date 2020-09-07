@@ -365,29 +365,32 @@ header button:hover {
   box-shadow: 5px 5px 5px #000000;
   cursor: pointer;
 }
+
 #Tool .Selection p {
-position: absolute;
-top:30px;
-color:#24252a;
-z-index: 2;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 20px;
-left:40px;
-max-width: 100px;
+  position: absolute;
+  top: 30px;
+  color: #24252a;
+  z-index: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  left: 40px;
+  max-width: 100px;
 }
+
 #Tool .Selection p1 {
-position: absolute;
-top:30px;
-color:#24252a;
-z-index: 2;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 20px;
-left: 190px;
-text-align: center;
-max-width: 100px;
+  position: absolute;
+  top: 30px;
+  color: #24252a;
+  z-index: 2;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  left: 190px;
+  text-align: center;
+  max-width: 100px;
 }
+
 #Tool .Description {
   position: relative;
   display: inline-block;
@@ -421,56 +424,64 @@ max-width: 100px;
   font-size: 14px;
   margin-top: 5px;
 }
+
 #ProjectData {
   position: relative;
   width: 100%;
   height: 610px;
 }
-#ProjectData .RightMesh{
+
+#ProjectData .RightMesh {
   margin-top: 40px;
   margin-left: 40px;
-display: inline-block;
-float: left;
-width: 70%;
-height: auto;
+  display: inline-block;
+  float: left;
+  width: 70%;
+  height: auto;
 }
-#ProjectData .RightMesh img{
-display: inline-block;
-float: left;
-width: 100%;
-height: auto;
+
+#ProjectData .RightMesh img {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: auto;
 }
-#OverView{
+
+#OverView {
   position: absolute;
   right: -10%;
   margin-left: 50%;
   width: 60%;
   height: 650px;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, .6);
   transform: skewX(-10deg);
 }
-#OverView .reskew{
+
+#OverView .reskew {
   width: 80%;
-  height:inherit;
+  height: inherit;
   margin-left: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: skewX(10deg);
 }
-#OverView .reskew h1{
+
+#OverView .reskew h1 {
   text-transform: uppercase;
   font-size: 40px;
   margin-right: 10px;
   transform: skewX(-10deg);
 }
-#OverView .reskew p{
+
+#OverView .reskew p {
   padding-right: 50px;
   font-size: 14px;
-  color:#aaa;
+  color: #aaa;
   line-height: 1.5;
 }
-#Motivation_LandScape{
+
+#Motivation_LandScape {
   display: flex;
   margin-top: 20px;
   position: relative;
@@ -478,8 +489,8 @@ height: auto;
   height: auto;
   background-color: #950740;
 }
-#Motivation_LandScape .Title{
 
+#Motivation_LandScape .Title {
   position: relative;
   margin-left: 10%;
   background-color: #6f2232;
@@ -491,12 +502,11 @@ height: auto;
   padding: 0px 20px;
   line-height: 1.5;
   display: flex;
-   align-items: center;
-   justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-#Motivation_LandScape .Title .Text {
-}
+#Motivation_LandScape .Title .Text {}
 
 #Motivation_LandScape .Title p {
   margin-top: 0px;
@@ -506,12 +516,65 @@ height: auto;
   text-transform: none;
   line-height: 1.5;
 }
-#Motivation_LandScape .Content{
+
+#Motivation_LandScape .Content {
   margin-left: 2%;
   margin-right: 2%;
   width: 30%;
   padding: 20px 0px;
-  color:#aaa;
+  color: #ccc;
   font-size: 14px;
+  line-height: 1.5;
+}
+
+#Aim {
+  position: relative;
+}
+
+#Aim .Dictator {
+  margin-top: 20px;
+  display: inline-block;
+  float: right;
+  margin-left: 30%;
+  width: 70%;
+  height: auto;
+}
+
+#AimShow {
+  position: absolute;
+  left: -10%;
+  width: 60%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, .6);
+  transform: skewX(10deg);
+}
+
+#AimShow .reskew {
+  width: 80%;
+  height: inherit;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewX(-10deg);
+}
+
+#AimShow .reskew text {
+  margin-left: 15%;
+}
+
+#AimShow .reskew p {
+  padding-left: 50px;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+#AimShow .reskew text h1 {
+  text-align: center;
+  padding-left: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
   line-height: 1.5;
 }
