@@ -205,7 +205,7 @@ header button:hover {
 }
 
 #GroupProcess {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
   width: 100%;
   height: auto;
@@ -559,16 +559,16 @@ header button:hover {
 #AimShow {
   position: absolute;
   left: -10%;
-  width: 60%;
+  width: 65%;
   height: 700px;
   background-color: rgba(0, 0, 0, .6);
   transform: skewX(10deg);
 }
 
 #AimShow .reskew {
-  width: 80%;
+  width: 95%;
   height: inherit;
-  margin-left: 5%;
+  margin-left: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,10 +580,10 @@ header button:hover {
 }
 
 #AimShow .reskew p {
-  padding-left: 50px;
-  font-size: 14px;
+  padding-left: 40px;
+  font-size: 12px;
   color: #aaa;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 #AimShow .reskew text h1 {
@@ -630,7 +630,7 @@ header button:hover {
 }
 .Roleparallax{
   margin-top: 40px;
-  background-image: url('/Asset/Picture/NexieRoles.jpg');
+  background-image: url('/Asset/Picture/NexieRole.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -640,6 +640,92 @@ header button:hover {
   justify-content:center;
   align-items: center;
 }
-.Tesing{
-  height: 400px;
+.Roleparallax p{
+  text-align: center;
+  font-weight:bold;
+  font-size: 100px;
+  background: -webkit-linear-gradient(180deg,#dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.RoleContent{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RoleContent div{
+  width: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: inherit;
+  min-height: 550px;
+  text-align: center;
+  border: 6px solid #950740;
+  justify-content: center;
+  align-items: center;
+}
+.RoleContent div img{
+  margin-top: 20px;
+width: 30%;
+height: auto;
+}
+.RoleContent div p{
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #aaa;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+.RoleContent div p role{
+font-size: 15px;
+color: #c30740;
+}
+#Scope_Limit {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #950740;
+}
+
+#Scope_Limit .Title {
+  position: relative;
+  margin-left: 10%;
+  background-color: #6f2232;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Scope_Limit .Title .Text {}
+
+#Scope_Limit .Title p {
+  margin-top: 0px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+#Scope_Limit .Content {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 70%;
+  padding: 20px 0px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
 }
