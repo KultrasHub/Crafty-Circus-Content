@@ -526,7 +526,23 @@ header button:hover {
   font-size: 14px;
   line-height: 1.5;
 }
+#Motivation_LandScape sec {
+  margin-left: 2%;
+  width: 80%;
 
+  height: auto;
+}
+#Motivation_LandScape sec img {
+  display:flex;
+  margin-left: 2%;
+  width: 30%;
+  height: auto;
+  padding-top: 20px;
+  float: left;
+  object-fit: contain;
+  vertical-align:top;
+  flex: 25%;
+}
 #Aim {
   position: relative;
 }
@@ -577,4 +593,8 @@ header button:hover {
   font-weight: bold;
   color: #fff;
   line-height: 1.5;
+}
+.parallax{
+  background-image:url("Asset/Picture/NexieCalculation.jpg");
+  background-color: white;
 }
