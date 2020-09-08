@@ -595,6 +595,51 @@ header button:hover {
   line-height: 1.5;
 }
 .parallax{
-  background-image:url("Asset/Picture/NexieCalculation.jpg");
-  background-color: white;
+  background-image: url('/NexieCalculation.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 275px;
+  width: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.parallax p{
+  text-align: center;
+  font-weight:bold;
+  font-size: 100px;
+  background: -webkit-linear-gradient(180deg,#c2e59c 0%, #64b3f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#PlanProcess .Content{
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b2c33;
+  margin-top: 40px;
+  box-shadow: 10px 10px 0px #1a1a1d;
+  padding:20px;
+}
+#PlanProcess .Content p{
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+}
+.Roleparallax{
+  margin-top: 40px;
+  background-image: url('/Asset/Picture/NexieRoles.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 275px;
+  width: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.Tesing{
+  height: 400px;
 }
