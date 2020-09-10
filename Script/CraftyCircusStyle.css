@@ -604,6 +604,7 @@ header button:hover {
   display:flex;
   justify-content:center;
   align-items: center;
+  transform: skewX(-6deg);
 }
 .parallax p{
   text-align: center;
@@ -728,4 +729,223 @@ color: #c30740;
   color: #ccc;
   font-size: 14px;
   line-height: 1.5;
+}
+#tnt{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+#tnt h1{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#tnt p{
+  color:#888;
+  font-size: 14px;
+  text-align: center;
+}
+#tnt .container{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
+  height:auto;
+  display: inline-flex;
+}
+#tnt .container .side{
+
+  width: 35%;
+  height: inherit;
+}
+#tnt .container .side .folder{
+  margin-top: 20px;
+  width:90%;
+  float: right;
+  height: 100px;;
+  position: relative;
+  background-color: #2b2c33;
+}
+#tnt .container .side .folder text{
+  width: 70%;
+  float:left;
+}
+#tnt .container .side .folder h2{
+text-align: right;margin-top: 30px;
+color: #FFF;
+font-size: 27px;
+text-transform: uppercase;
+}
+#tnt .container .side .folder p{
+  text-align: right;margin-top: 5px;
+  color: #ccc;
+  font-size: 14px;
+}
+#tnt .container .side .folder .sideLine{
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  right: 100px;
+  background-color:#ccc;
+}
+#tnt .container .side .folder .endLine{
+  position: absolute;
+  bottom:0;
+  left: 5%;
+  height: 1px;
+  width: 90%;
+  right: 100px;
+  background: linear-gradient(to right, #950740, #fff);
+}
+#tnt .container .side .folder img{
+  position: absolute;
+  right:10px;
+  height: 80px;
+  width: 80px;
+}
+#tnt .container .side .folder :hover{
+  background-color: #1a1a1d;
+}
+#tnt .container .side .rfolder{
+  margin-top: 20px;
+  width:90%;
+  float: left;
+  height: 100px;;
+  position: relative;
+  background-color: #2b2c33;
+}
+#tnt .container .side .rfolder :hover{
+  background-color: #1a1a1d;
+}
+#tnt .container .side .rfolder text{
+  width: 70%;
+  float:right;
+}
+#tnt .container .side .rfolder h2{
+text-align: left;margin-top: 30px;
+color: #FFF;
+font-size: 27px;
+text-transform: uppercase;
+}
+#tnt .container .side .rfolder p{
+  text-align: left;margin-top: 5px;
+  color: #ccc;
+  font-size: 14px;
+}
+#tnt .container .side .rfolder .sideLine{
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  left: 100px;
+  background-color:#ccc;
+}
+#tnt .container .side .rfolder .endLine{
+  position: absolute;
+  bottom:0;
+  right: 5%;
+  height: 1px;
+  width: 90%;
+
+  background: linear-gradient(to right,#fff, #950740);
+}
+#tnt .container .side .rfolder img{
+  position: absolute;
+  left:10px;
+  height: 80px;
+  width: 80px;
+}
+#tnt .container .mid{
+  width:30%;
+  height: auto;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tnt .container .mid .content{
+  width: 90%;
+  height: auto;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 2;
+  background-color: #1a1a1d;
+  padding: 5px;
+}
+#Testing {
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  transform: skewY(6deg);
+   background-color: #111;
+}
+
+#Testing .Title {
+  position: relative;
+  margin-left: 10%;
+
+  background-color: #6f2232;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#Testing .Title p {
+  margin-top: 0px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+#Testing .Content {
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 60%;
+  padding: 20px 0px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+#Testing .ReShew{
+  margin-top: 70px;
+    transform: skewY(-6deg);
+    display: inline-flex;
+}
+.TimeFrameparallax{
+  background-image: url('/Asset/Picture/TimeFreeze.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  transform: skewY(6deg);
+}
+.TimeFrameparallax p{
+  text-align: center;
+  font-weight:bold;
+  font-size: 100px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background: -webkit-linear-gradient(180deg,#f6d365 0%, #fda085 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skewY(-6deg);
 }
