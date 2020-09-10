@@ -257,19 +257,43 @@ header button:hover {
   position: relative;
 }
 
-.ReCareerPlan div {
+.ReCareerPlan folder div {
   position: relative;
   margin-left: .5%;
   margin-right: .5%;
   display: inline-block;
   width: 23%;
   height: 300px;
-  transition: width .7s ease-in-out 0s;
+  min-height: 300px;
+  transition: width .7s ease-in-out 0s,height .4s ease-in-out 0s;;
   overflow: hidden;
   justify-content: center;
   align-items: center;
 }
-
+.CareerPlanCall{
+  animation-name: CareerPLanVer;
+  animation-duration:.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes CareerPLanVer{
+  0%{
+    height: 0;
+    opacity: 0;
+  }
+  30%{
+    height: 400px;
+  opacity: .3;
+  }
+  50%{
+    height: 500px;
+  opacity: .9;
+  }
+  100%{
+    height: auto;
+    opacity: 1;
+  }
+}
 .ReCareerPlan div h1 {
   margin: 0 auto;
   display: block;
@@ -521,7 +545,23 @@ header button:hover {
   margin-left: 2%;
   margin-right: 2%;
   width: 30%;
+  padding: 20px 10px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#Motivation_LandScape .Content Name{
+  margin-left: -20px;
   padding: 20px 0px;
+  color: White;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+#Motivation_LandScape .SingleContent {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 20px 20px;
   color: #ccc;
   font-size: 14px;
   line-height: 1.5;
@@ -948,4 +988,99 @@ text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: skewY(-6deg);
+}
+.TimeFrame{
+  height:500px;
+}
+#Risk{
+  margin-top: 40px;
+  height: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b2c33;
+  display: flex;
+  margin-top: 40px;
+  box-shadow: 10px 10px 0px #1a1a1d;
+  padding:20px;
+}
+#Risk h1{
+  font-size: 30px;
+  color:#950740;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#Risk p{
+font-size: 14px;
+color: #aaa;
+line-height: 2;
+padding: 30px;
+}
+#Risk img{
+  height: 400px;
+  width: auto;
+  padding: 30px;
+}
+.ending{
+  background-color: rgba(255,255,255,.9);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  height:auto;
+}
+.ending container{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.ending container img{
+  height: 120px;
+  width: auto;
+}
+.ending container h1{
+  font-size: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container h2{
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container p{
+  max-width: 300px;
+  color: #222;
+  font-size: 13px;
+}
+.ending container folder{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ending div{
+  margin-top: 5px;
+  width: 64%;
+  margin-left: 16%;
+  background-color: #222;
+  height: 1px;
+}
+.ending container1 {
+  display: flex;
+  justify-content: center;
+}
+.ending container1 holder{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.ending container1 h3{
+  margin-top: 25px;
+  font-size: 16px;
+}
+.ending container1 p{
+  max-width: 300px;
+  color: #222;
+  font-size: 14px;
 }
