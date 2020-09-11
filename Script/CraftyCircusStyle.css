@@ -1084,3 +1084,173 @@ padding: 30px;
   color: #222;
   font-size: 14px;
 }
+.Skill_Job{
+  width: 60%;
+  margin: 40px auto;
+  line-height: 2;
+  color: #aaa;
+  font-size: 14px;
+}
+.Skill_Job h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lineCute{
+  width: 75%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right,#fff, #950740);
+  margin-bottom: 20px;
+}
+#Feedback .selection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Feedback .selection img{
+border:2px solid #c3073f;
+border-radius: 50%;
+margin-left: 20px;
+margin-right: 20px;
+}
+#Feedback .selection div{
+  color:#950740;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+#Feedback .selection div p{
+
+  color: #aaa;
+  font-size: 14px;
+}
+#Feedback .content{
+  margin-top:40px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+#chatBox{
+  width: 60%;
+  background-color: #2b2c33;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+}
+#chatBox .title{
+height: 80px;
+width: 100%;
+background-color: #6f2232;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+display: flex;
+align-items: center;
+-webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 2px rgba(255,255,255,0.2);
+}
+#chatBox .title h1{
+margin-left: 60px;
+margin-right: 20px;
+font-size: 25px;
+}
+#chatBox .title Icon{
+  margin-left:55%;
+  display: flex;
+  font-size: 40px;
+}
+#chatBox .title Icon p
+{
+  margin-left:20px;
+}
+.messenger{
+  margin-top: 30px;
+position: relative;
+}
+.messenger .speechBubble:nth-child(2n+1){
+  width: 80%;
+  filter: drop-shadow(-1px -1px 2px rgba(black, .10)) drop-shadow(1px 2px 2px rgba(black, .15));
+  margin: 20px;
+  border-right: 5px solid #c3073f;
+  margin-bottom: 50px;
+  padding:20px;
+  position:relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  background-image:linear-gradient(to right, #26272b,#1a1a1d);
+}
+.messenger .speechBubble:nth-child(2n){
+  width: 80%;
+  filter: drop-shadow(-1px -1px 2px rgba(black, .10)) drop-shadow(1px 2px 2px rgba(black, .15));
+  margin: 20px;
+
+border-left: 5px solid #d4fc79;
+  margin-left: 13%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding:20px;
+  position:relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  background-image:linear-gradient(to right, #26272b,#1a1a1d);
+}
+.speechBubble:nth-child(2n+1) .arrow{
+  position: absolute;
+  bottom: -20px;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 20px 20px 0;
+border-color: transparent #26272b transparent transparent;
+}
+.speechBubble:nth-child(2n) .arrow{
+  position: absolute;
+  bottom: -20px;
+  width: 0;
+  right:20px;
+height: 0;
+border-style: solid;
+border-width: 20px 20px 0 0;
+border-color: #1a1a1d transparent transparent transparent;
+}
+.messenger .speechBubble:nth-child(2n+1) cite{
+position: absolute;
+letter-spacing: .5px;
+bottom: -30px;
+left: 60px;
+font-size: 16px;
+font-weight: 300;
+color:#c3073f;
+}
+.messenger .speechBubble:nth-child(2n+1) cite img{
+  width: 30px;
+  border-radius: 50%;
+  border:2px solid #c3073f;
+  height: auto;
+}
+.messenger .speechBubble:nth-child(2n) cite img{
+  width: 30px;
+  border-radius: 50%;
+  border:2px solid #d4fc79;
+  height: auto;
+}
+.messenger .speechBubble:nth-child(2n) cite{
+position: absolute;
+letter-spacing: .5px;
+bottom: -30px;
+right: 60px;
+font-size: 16px;
+font-weight: 300;
+color:#d4fc79;
+}
