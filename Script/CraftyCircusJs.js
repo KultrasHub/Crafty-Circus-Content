@@ -47,7 +47,7 @@ function CareerPlan(index)
     //stretch the chosen container
     khoaCareer.style.width="62%";
     var child=khoaCareer.childNodes;
-    child[7].innerHTML="The majority of Crafty Circus 's members have already experienced other programming languages. Additionally, we have 3 anticipated ideal jobs that are about game development. Therefore, the best role for the team is Game Developer. Game Developer does not appear in the list, however, we can presume a game is a software as they are much or less similar in terms of making. According to the Burning Glass Data, our title scores at the 19th position in the list of in-demand job titles to employers. Game creation requires a handful of abilities, especially, we will have to work with people from different areas. For example, programmers and artists usually have different ways of approaching the problem, this brings us the first consideration which is communication. Coming next are skills that every programmer needs to master, problem solving. Furthermore, Game development is a type of creative work meaning skill that we need to consider is creativity. We will be working on C# especially parts related to the Unity library. Besides, graphic design will be a consideration as people are extremely interested in appearance.";
+    child[7].innerHTML="I have a dream of working in the game industry. Although I have an ideal job, Game Designer, I am ambitious about having my own business. This is quite different from other members in the team. <br><br>I and Nhat will be working in the same industry, however, his plan is more likely to get employed. Therefore, there is a connection between our plans. <br><br>On the other hand, Phong wants more freedom at work so he chose to be a freelancer. In contrast, my work would be more reliable than his, as he only can earn money when he is hired. The pattern of work is also distinct.<br><br>Kent and I may share the same ideas, is to establish a team. However, he is less relentless than me as he wants to gain experience from working first.";
     Collapse(index);
     khoaCareer.classList.add("CareerPlanCall");
     setTimeout(function()
@@ -98,7 +98,7 @@ function CareerPlan(index)
     //stretch the chosen container
     nhatCareer.style.width="62%";
     var child=nhatCareer.childNodes;
-    child[7].innerHTML="My ideal job is about to become a game developer which is a programming position. My ideal job is similar to Khoa which is also a game developer. However, Khoa is fond of a design position while developing a game. Design and programming are completely different, design is harder than programming in my opinion. Because it needs to be creative and attractive, which is the face of the product, in this case, it is the face of our game. Besides, programming is solving and connecting everything inside the product to let the product run as smoothly as possible. Although ours is different, it helps each other to get the product finished. <br><br>Comparing my ideal job with Khang's ideal job which is programmer and full-stack developer. It is both developers but these two jobs develop in different areas in the IT industry and the work is totally different. As far as I have known, Khang becomes a full-stack developer which means he is able to design and also code. Mostly, full-stack is the one working with full web which is the face of the web and manages to let it work completely. That means he will know a little bit about designing the web to attract users. Although programming and full-stack are absolutely different, we also are able to help each other by the code that we know and the solution. It can be a different language between web development and application development but it is still having the same in thinking and problem solving. <br><br>My last partner, Phong, has the ideal job called software developer. This position is the process of everything before planning and making the product including design, programming, testing, bug fixing. This position also needs to develop and maintain the source code all the time to not let the application be too old and not suitable for the society and other devices. Therefore, Phong’s ideal job is obviously different from mine and others. The position needs to look overview everything of the process making product or the project meanwhile, my position is programming which is concentrating on only the source code in order to let the product run as well as possible. However, luckily, that his position is not pretty different at all, his position is about to help everyone to work in the perfect process and smoothly to not have any problem including the process that we are doing for our project, The Game.";
+    child[7].innerHTML="My ideal job is about to become a game developer which is a programming position. My ideal job is similar to Khoa which is also a game developer. However, Khoa is fond of a design position while developing a game. Design and programming are completely different, design is harder than programming in my opinion. Because it needs to be creative and attractive, which is the face of the product, in this case, it is the face of our game. Besides, programming is solving and connecting everything inside the product to let the product run as smoothly as possible. Although ours is different, it helps each other to get the product finished. <br><br>Comparing my ideal job with Khang's ideal job which is programmer and full-stack developer. It is both developers but these two jobs develop in different areas in the IT industry and the work is totally different. As far as I have known, Khang becomes a full-stack developer which means he is able to design and also code. Mostly, full-stack is the one working with full web which is the face of the web and manages to let it work completely. That means he will know a little bit about designing the web to attract users. Although programming and full-stack are absolutely different, we also are able to help each other by the code that we know and the solution. It can be a different language between web development and application development but it is still having the same in thinking and problem solving.  <br><br>Lastly, comparing my ideal’s job with Phong’s ideal job, mine is about creating, maintaining and developing source code meanwhile, Phong’s is supposed to analyze and satisfy the request from clients. Specifically, Phong’s job is the “bridge” between clients and employers in order to guarantee that the product and client’s requirements are suitable. That is why Phong is the person who analyzes the lecturer’s requirements and our project to be suitable. Therefore, his ideal job can help mine to understand and make sure that mine is doing the right way.";
     Collapse(index);
     nhatCareer.classList.add("CareerPlanCall");
     setTimeout(function()
@@ -175,13 +175,13 @@ function Restretch()
   var nhatCareer=document.getElementById('NhatCareer');
   kentCareer.style.width="23%";
   var childKent=kentCareer.childNodes;
-  childKent[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  childKent[7].innerHTML="DataMissing";
   phongCareer.style.width="23%";
   var childPhong=phongCareer.childNodes;
   childPhong[7].innerHTML=" orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
   khoaCareer.style.width="23%";
   var childKhoa=khoaCareer.childNodes;
-  childKhoa[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  childKhoa[7].innerHTML="I have a dream of working in the game industry. Although I have an ideal job, Game Designer, I am ambitious about having my own business. This is quite different from other members in the team.";
   nhatCareer.style.width="23%";
   var childNhat=nhatCareer.childNodes;
   childNhat[7].innerHTML="  My ideal job is about to become a game developer which is a programming position. My ideal job is similar to Khoa which is also a game developer. However, Khoa is fond of a design position while developing a game. Design and programming are completely different, design is harder than programming in my opinion. Because it needs to be creative and attractive, which is the face of the product, in this case, it is the face of our game.";
@@ -234,4 +234,48 @@ function ToolShow(index)
     tool.innerHTML="Hardware requirements: Ram 8GB- Hard drive 250GB: We believe those hardware are essential to create 2D video games smoothly. We may consider an additional screen, due to the fact that seniors preferred that. Moreover, Unity no longer support 32 bit system so it is better to use 64-bit which hardware's condition is about 8GB in RAM for smoothly operation. A video game may seem light but the data and information without compression is unbelievably heavy. A 200MB video game could take up to 15GB in the creators' hardive.";
   }
 
+}
+function FBSelection(index)
+{
+  var title=document.getElementById("Title_FB");
+  var khoa=document.getElementById("Khoa_FB");
+  var kent=document.getElementById("Kent_FB");
+  var phong=document.getElementById("Phong_FB");
+  var nhat=document.getElementById("Nhat_FB");
+  if(index==0)
+  {
+    title.innerHTML="Khoa's Antifan";
+    khoa.innerHTML="I'm the leader of Crafty Circus, I think in this assignment, we have done a better job with work distribution, though, I still have to do more work than other members as I am the only person who has experience in video games in the group but I think it  worth it. Overall, I am happy with my performance in the team as a leader.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==1)
+  {
+    title.innerHTML="Kent's Antifan";
+    khoa.innerHTML="Kent shows such an improvement in this assignment too. Although he is a bit careless at writing and often falls into freestyle writing rather than an academic one, he listens to us and is ready to repair his underwork. In general, he takes more responsibility in this assignment and it is a good sign.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==2)
+  {
+    title.innerHTML="Phong's Antifan";
+    khoa.innerHTML="Phong is genuinely a hardworking student, he has to undertake difficult tasks too. We were happy with the content he showed in the last assignment, so I had no worry to entrust him with the major content. The result is he does not turn everyone down this time and actually he got all commits on time.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==3)
+  {
+    title.innerHTML="Nhat's Antifan";
+    khoa.innerHTML="Nhat is also a person I feel confident when assigning tasks. He is always punctual, way too punctual, his content is fantastic and sometimes, he took it seriously on a minor content. However, there are still some issues with him, he could not join our discussion and take work passively. So I hope he will be more proactive in the future.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+}
+function Alert()
+{
+  alert(" You can not do this, sadly");
 }
