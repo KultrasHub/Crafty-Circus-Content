@@ -205,7 +205,7 @@ header button:hover {
 }
 
 #GroupProcess {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
   width: 100%;
   height: auto;
@@ -257,19 +257,43 @@ header button:hover {
   position: relative;
 }
 
-.ReCareerPlan div {
+.ReCareerPlan folder div {
   position: relative;
   margin-left: .5%;
   margin-right: .5%;
   display: inline-block;
   width: 23%;
   height: 300px;
-  transition: width .7s ease-in-out 0s;
+  min-height: 300px;
+  transition: width .7s ease-in-out 0s,height .4s ease-in-out 0s;;
   overflow: hidden;
   justify-content: center;
   align-items: center;
 }
-
+.CareerPlanCall{
+  animation-name: CareerPLanVer;
+  animation-duration:.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes CareerPLanVer{
+  0%{
+    height: 0;
+    opacity: 0;
+  }
+  30%{
+    height: 400px;
+  opacity: .3;
+  }
+  50%{
+    height: 500px;
+  opacity: .9;
+  }
+  100%{
+    height: auto;
+    opacity: 1;
+  }
+}
 .ReCareerPlan div h1 {
   margin: 0 auto;
   display: block;
@@ -521,7 +545,23 @@ header button:hover {
   margin-left: 2%;
   margin-right: 2%;
   width: 30%;
+  padding: 20px 10px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#Motivation_LandScape .Content Name{
+  margin-left: -20px;
   padding: 20px 0px;
+  color: White;
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+#Motivation_LandScape .SingleContent {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 20px 20px;
   color: #ccc;
   font-size: 14px;
   line-height: 1.5;
@@ -559,16 +599,16 @@ header button:hover {
 #AimShow {
   position: absolute;
   left: -10%;
-  width: 60%;
+  width: 65%;
   height: 700px;
   background-color: rgba(0, 0, 0, .6);
   transform: skewX(10deg);
 }
 
 #AimShow .reskew {
-  width: 80%;
+  width: 95%;
   height: inherit;
-  margin-left: 5%;
+  margin-left: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,10 +620,10 @@ header button:hover {
 }
 
 #AimShow .reskew p {
-  padding-left: 50px;
-  font-size: 14px;
+  padding-left: 40px;
+  font-size: 12px;
   color: #aaa;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 #AimShow .reskew text h1 {
@@ -604,6 +644,7 @@ header button:hover {
   display:flex;
   justify-content:center;
   align-items: center;
+  transform: skewX(-6deg);
 }
 .parallax p{
   text-align: center;
@@ -630,7 +671,7 @@ header button:hover {
 }
 .Roleparallax{
   margin-top: 40px;
-  background-image: url('/Asset/Picture/NexieRoles.jpg');
+  background-image: url('/Asset/Picture/NexieRole.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -640,6 +681,643 @@ header button:hover {
   justify-content:center;
   align-items: center;
 }
-.Tesing{
+.Roleparallax p{
+  text-align: center;
+  font-weight:bold;
+  font-size: 100px;
+  background: -webkit-linear-gradient(180deg,#dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.RoleContent{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RoleContent div{
+  width: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: inherit;
+  min-height: 550px;
+  text-align: center;
+  border: 6px solid #950740;
+  justify-content: center;
+  align-items: center;
+}
+.RoleContent div img{
+  margin-top: 20px;
+width: 30%;
+height: auto;
+}
+.RoleContent div p{
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #aaa;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+.RoleContent div p role{
+font-size: 15px;
+color: #c30740;
+}
+#Scope_Limit {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #950740;
+}
+
+#Scope_Limit .Title {
+  position: relative;
+  margin-left: 10%;
+  background-color: #6f2232;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Scope_Limit .Title .Text {}
+
+#Scope_Limit .Title p {
+  margin-top: 0px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+#Scope_Limit .Content {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 70%;
+  padding: 20px 0px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+#tnt{
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+#tnt h1{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#tnt p{
+  color:#888;
+  font-size: 14px;
+  text-align: center;
+}
+#tnt .container{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
+  height:auto;
+  display: inline-flex;
+}
+#tnt .container .side{
+
+  width: 35%;
+  height: inherit;
+}
+#tnt .container .side .folder{
+  margin-top: 20px;
+  width:90%;
+  float: right;
+  height: 100px;;
+  position: relative;
+  background-color: #2b2c33;
+}
+#tnt .container .side .folder text{
+  width: 70%;
+  float:left;
+}
+#tnt .container .side .folder h2{
+text-align: right;margin-top: 30px;
+color: #FFF;
+font-size: 27px;
+text-transform: uppercase;
+}
+#tnt .container .side .folder p{
+  text-align: right;margin-top: 5px;
+  color: #ccc;
+  font-size: 14px;
+}
+#tnt .container .side .folder .sideLine{
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  right: 100px;
+  background-color:#ccc;
+}
+#tnt .container .side .folder .endLine{
+  position: absolute;
+  bottom:0;
+  left: 5%;
+  height: 1px;
+  width: 90%;
+  right: 100px;
+  background: linear-gradient(to right, #950740, #fff);
+}
+#tnt .container .side .folder img{
+  position: absolute;
+  right:10px;
+  height: 80px;
+  width: 80px;
+}
+#tnt .container .side .folder :hover{
+  background-color: #1a1a1d;
+}
+#tnt .container .side .rfolder{
+  margin-top: 20px;
+  width:90%;
+  float: left;
+  height: 100px;;
+  position: relative;
+  background-color: #2b2c33;
+}
+#tnt .container .side .rfolder :hover{
+  background-color: #1a1a1d;
+}
+#tnt .container .side .rfolder text{
+  width: 70%;
+  float:right;
+}
+#tnt .container .side .rfolder h2{
+text-align: left;margin-top: 30px;
+color: #FFF;
+font-size: 27px;
+text-transform: uppercase;
+}
+#tnt .container .side .rfolder p{
+  text-align: left;margin-top: 5px;
+  color: #ccc;
+  font-size: 14px;
+}
+#tnt .container .side .rfolder .sideLine{
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  width: 1px;
+  left: 100px;
+  background-color:#ccc;
+}
+#tnt .container .side .rfolder .endLine{
+  position: absolute;
+  bottom:0;
+  right: 5%;
+  height: 1px;
+  width: 90%;
+
+  background: linear-gradient(to right,#fff, #950740);
+}
+#tnt .container .side .rfolder img{
+  position: absolute;
+  left:10px;
+  height: 80px;
+  width: 80px;
+}
+#tnt .container .mid{
+  width:30%;
+  height: auto;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tnt .container .mid .content{
+  width: 90%;
+  height: auto;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 2;
+  background-color: #1a1a1d;
+  padding: 5px;
+}
+#Testing {
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  transform: skewY(6deg);
+   background-color: #111;
+}
+
+#Testing .Title {
+  position: relative;
+  margin-left: 10%;
+
+  background-color: #6f2232;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#Testing .Title p {
+  margin-top: 0px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+#Testing .Content {
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 60%;
+  padding: 20px 0px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+#Testing .ReShew{
+  margin-top: 70px;
+    transform: skewY(-6deg);
+    display: inline-flex;
+}
+.TimeFrameparallax{
+  background-image: url('/Asset/Picture/TimeFreeze.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  transform: skewY(6deg);
+}
+.TimeFrameparallax p{
+  text-align: center;
+  font-weight:bold;
+  font-size: 100px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background: -webkit-linear-gradient(180deg,#f6d365 0%, #fda085 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skewY(-6deg);
+}
+.TimeFrame{
+  height:500px;
+}
+#Risk{
+  margin-top: 40px;
+  height: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2b2c33;
+  display: flex;
+  margin-top: 40px;
+  box-shadow: 10px 10px 0px #1a1a1d;
+  padding:20px;
+}
+#Risk h1{
+  font-size: 30px;
+  color:#950740;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#Risk p{
+font-size: 14px;
+color: #aaa;
+line-height: 2;
+padding: 30px;
+}
+#Risk img{
   height: 400px;
+  width: auto;
+  padding: 30px;
+}
+.ending{
+  background-color: rgba(255,255,255,.9);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+  height:auto;
+}
+.ending container{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.ending container img{
+  height: 120px;
+  width: auto;
+}
+.ending container h1{
+  font-size: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container h2{
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: boldest;
+}
+.ending container p{
+  max-width: 300px;
+  color: #222;
+  font-size: 13px;
+}
+.ending container folder{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ending div{
+  margin-top: 5px;
+  width: 64%;
+  margin-left: 16%;
+  background-color: #222;
+  height: 1px;
+}
+.ending container1 {
+  display: flex;
+  justify-content: center;
+}
+.ending container1 holder{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.ending container1 h3{
+  margin-top: 25px;
+  font-size: 16px;
+}
+.ending container1 p{
+  max-width: 300px;
+  color: #222;
+  font-size: 14px;
+}
+.Skill_Job{
+  width: 60%;
+  margin: 40px auto;
+  line-height: 2;
+  color: #aaa;
+  font-size: 14px;
+}
+.Skill_Job h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.lineCute{
+  width: 75%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right,#fff, #950740);
+  margin-bottom: 20px;
+}
+#Feedback .selection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Feedback .selection img{
+border:2px solid #c3073f;
+border-radius: 50%;
+margin-left: 20px;
+margin-right: 20px;
+cursor: pointer;
+}
+#Feedback .selection div{
+  color:#950740;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+#Feedback .selection div p{
+
+  color: #aaa;
+  font-size: 14px;
+}
+#Feedback .content{
+  margin-top:40px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+#chatBox{
+  width: 60%;
+  background-color: #2b2c33;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+box-shadow: -1px 1px 20px 9px rgba(0,0,0,0.3);
+}
+#chatBox .title{
+height: 80px;
+width: 100%;
+background-color: #6f2232;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+display: flex;
+align-items: center;
+-webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 2px rgba(255,255,255,0.2);
+}
+#chatBox .title h1{
+margin-left: 60px;
+margin-right: 20px;
+font-size: 25px;
+}
+#chatBox .title Icon{
+  margin-left:55%;
+  display: flex;
+  font-size: 40px;
+}
+#chatBox .title Icon p
+{
+  margin-left:20px;
+}
+.messenger{
+  margin-top: 30px;
+position: relative;
+}
+.messenger .speechBubble:nth-child(2n+1){
+  width: 80%;
+  filter: drop-shadow(-1px -1px 2px rgba(black, .10)) drop-shadow(1px 2px 2px rgba(black, .15));
+  margin: 20px;
+  border-right: 5px solid #c3073f;
+  margin-bottom: 50px;
+  padding:20px;
+  position:relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  background-image:linear-gradient(to right, #26272b,#1a1a1d);
+}
+.messenger .speechBubble:nth-child(2n){
+  width: 80%;
+  filter: drop-shadow(-1px -1px 2px rgba(black, .10)) drop-shadow(1px 2px 2px rgba(black, .15));
+  margin: 20px;
+
+border-left: 5px solid #d4fc79;
+  margin-left: 13%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding:20px;
+  position:relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  background-image:linear-gradient(to right, #26272b,#1a1a1d);
+}
+.speechBubble:nth-child(2n+1) .arrow{
+  position: absolute;
+  bottom: -20px;
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 20px 20px 0;
+border-color: transparent #26272b transparent transparent;
+}
+.speechBubble:nth-child(2n) .arrow{
+  position: absolute;
+  bottom: -20px;
+  width: 0;
+  right:20px;
+height: 0;
+border-style: solid;
+border-width: 20px 20px 0 0;
+border-color: #1a1a1d transparent transparent transparent;
+}
+.messenger .speechBubble:nth-child(2n+1) cite{
+position: absolute;
+letter-spacing: .5px;
+bottom: -30px;
+left: 60px;
+font-size: 16px;
+font-weight: 300;
+color:#c3073f;
+}
+.messenger .speechBubble:nth-child(2n+1) cite img{
+  width: 30px;
+  border-radius: 50%;
+  border:2px solid #c3073f;
+  height: auto;
+}
+.messenger .speechBubble:nth-child(2n) cite img{
+  width: 30px;
+  border-radius: 50%;
+  border:2px solid #d4fc79;
+  height: auto;
+}
+.messenger .speechBubble:nth-child(2n) cite{
+position: absolute;
+letter-spacing: .5px;
+bottom: -30px;
+right: 60px;
+font-size: 16px;
+font-weight: 300;
+color:#d4fc79;
+}
+#Feedback #chatBox p:hover{
+color:#aaa;
+cursor: pointer;
+}
+#Feedback .selection img:hover{
+  filter:brightness(60%);
+}
+#GroupReflection
+{
+  width: 90%;
+  background-color: #2b2c33;
+  box-shadow: 10px 10px 0px #1a1a1d;
+  padding:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  height: auto;
+}
+#GroupReflection text h1{
+font-size: 40px;
+color:#950740;
+}
+#GroupReflection text p{
+  color:#aaa;
+  margin-left: 20px;
+}
+#GroupReflection container{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#GroupReflection container div{
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: inline-block;
+  background-color: #282b2c;
+  box-shadow: 5px 5px 5px #1a1a1d;
+  padding: 1%;
+}
+#GroupReflection container .group{
+  width: 94%;
+}
+#GroupReflection container div h1{
+color:#c3073f;
+text-transform: uppercase;
+font-weight: 600;
+}
+#GroupReflection container div div{
+  height: 1px;
+  width: 80%;
+  padding:0;
+  box-shadow: none;
+  margin-top: 5px;
+  display:block;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+#GroupReflection container div p{
+  margin-top: 10px;
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.5;
 }

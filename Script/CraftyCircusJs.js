@@ -33,13 +33,31 @@ function CareerPlan(index)
   var kentCareer=document.getElementById('KentCareer');
   var phongCareer=document.getElementById('PhongCareer');
   var nhatCareer=document.getElementById('NhatCareer');
+  nhatCareer.preventDefault;
+  khoaCareer.classList.remove('CareerPlanCall');
+  void khoaCareer.setoffWidth;
+  kentCareer.classList.remove('CareerPlanCall');
+  void kentCareer.setoffWidth;
+  phongCareer.classList.remove('CareerPlanCall');
+  void phongCareer.setoffWidth;
+  nhatCareer.classList.remove('CareerPlanCall');
+  void nhatCareer.setoffWidth;
   if(index==0)
   {
     //stretch the chosen container
     khoaCareer.style.width="62%";
     var child=khoaCareer.childNodes;
-    child[7].innerHTML="The majority of Crafty Circus 's members have already experienced other programming languages. Additionally, we have 3 anticipated ideal jobs that are about game development. Therefore, the best role for the team is Game Developer. Game Developer does not appear in the list, however, we can presume a game is a software as they are much or less similar in terms of making. According to the Burning Glass Data, our title scores at the 19th position in the list of in-demand job titles to employers. Game creation requires a handful of abilities, especially, we will have to work with people from different areas. For example, programmers and artists usually have different ways of approaching the problem, this brings us the first consideration which is communication. Coming next are skills that every programmer needs to master, problem solving. Furthermore, Game development is a type of creative work meaning skill that we need to consider is creativity. We will be working on C# especially parts related to the Unity library. Besides, graphic design will be a consideration as people are extremely interested in appearance.";
+    child[7].innerHTML="I have a dream of working in the game industry. Although I have an ideal job, Game Designer, I am ambitious about having my own business. This is quite different from other members in the team. <br><br>I and Nhat will be working in the same industry, however, his plan is more likely to get employed. Therefore, there is a connection between our plans. <br><br>On the other hand, Phong wants more freedom at work so he chose to be a freelancer. In contrast, my work would be more reliable than his, as he only can earn money when he is hired. The pattern of work is also distinct.<br><br>Kent and I may share the same ideas, is to establish a team. However, he is less relentless than me as he wants to gain experience from working first.";
     Collapse(index);
+    khoaCareer.classList.add("CareerPlanCall");
+    setTimeout(function()
+  {
+    var savedHeight=nhatCareer.offsetHeight;
+    savedHeight=savedHeight+ "px";
+    kentCareer.style.height=savedHeight;
+        khoaCareer.style.height=savedHeight;
+            phongCareer.style.height=savedHeight;
+  },500)
   }
   if(index==1)
   {
@@ -48,6 +66,15 @@ function CareerPlan(index)
     var child=kentCareer.childNodes;
     child[7].innerHTML="To add a level of complexity to your transitions, you can use the power of cubic beziers. Most of the time, if you’re just developing websites, you probably won’t need to mess with cubic beziers much. But, if you do and because I am barely competent with math (d’aww), I will let someone who is much better with numbers do the hard work to explain those. Check out The Art of Web for their excellent cubic bezier documentation. Transitions also work with images and can create some really cool effects. In fact, you can make entire slideshows with CSS transitions and images. But we’ll be covering that in another tutorial that’s coming soon!";
     Collapse(index);
+    phongCareer.classList.add("CareerPlanCall");
+    setTimeout(function()
+  {
+    var savedHeight=nhatCareer.offsetHeight;
+    savedHeight=savedHeight+ "px";
+    nhatCareer.style.height=savedHeight;
+    khoaCareer.style.height=savedHeight;
+    phongCareer.style.height=savedHeight;
+  },500)
   }
   if(index==2)
   {
@@ -56,14 +83,32 @@ function CareerPlan(index)
     var child=phongCareer.childNodes;
     child[7].innerHTML="That old, familiar smell hit her first. Hay, strawberries, and sturdy wood. The courtyard of the Argentine Inn had a particular waft to it that brought the ache of memories long past: a hundred concerts, a thousand faces lit by lantern light, and—most painful of all—a time when things were simpler and happier in Demacia. But these days, that version of her home country felt distant. Worlds away. When she first spotted her old friend Etra emerging from the doorway of the inn, her breath hitched—maybe this, too, was different. But Etra’s eyes went wide. She shrieked with joy, and as she ran forward to wrap Sona up in her arms, Sona breathed a little sigh of relief. Some things didn’t change after all. “You got my letter!” Etra said, and squeezed her tight. Sona nodded. As Etra released her, she stood back to get a good look, still clasping Sona’s hands. “Someone’s been traveling,” she said, impressed. As if noticing Sona was on edge, Etra paused, released her hands, and slipped into the rough sign language they’d forged over a lifetime. All is well? It was a relief to be able to sign back. To be understood by someone who loved her. Yes, of course, Sona responded, whether it was true or not. Missed you terribly, though. She held her hands a little lower. Didn’t want passersby to see the sharp gestures, the twitching fingers, and draw the wrong conclusions.";
     Collapse(index);
+    phongCareer.classList.add("CareerPlanCall");
+    setTimeout(function()
+  {
+    var savedHeight=nhatCareer.offsetHeight;
+    savedHeight=savedHeight+ "px";
+    nhatCareer.style.height=savedHeight;
+        khoaCareer.style.height=savedHeight;
+            kentCareer.style.height=savedHeight;
+  },500)
   }
   if(index==3)
   {
     //stretch the chosen container
     nhatCareer.style.width="62%";
     var child=nhatCareer.childNodes;
-    child[7].innerHTML="To add a level of complexity to your transitions, you can use the power of cubic beziers. Most of the time, if you’re just developing websites, you probably won’t need to mess with cubic beziers much. But, if you do and because I am barely competent with math (d’aww), I will let someone who is much better with numbers do the hard work to explain those. Check out The Art of Web for their excellent cubic bezier documentation. Transitions also work with images and can create some really cool effects. In fact, you can make entire slideshows with CSS transitions and images. But we’ll be covering that in another tutorial that’s coming soon!";
+    child[7].innerHTML="My ideal job is about to become a game developer which is a programming position. My ideal job is similar to Khoa which is also a game developer. However, Khoa is fond of a design position while developing a game. Design and programming are completely different, design is harder than programming in my opinion. Because it needs to be creative and attractive, which is the face of the product, in this case, it is the face of our game. Besides, programming is solving and connecting everything inside the product to let the product run as smoothly as possible. Although ours is different, it helps each other to get the product finished. <br><br>Comparing my ideal job with Khang's ideal job which is programmer and full-stack developer. It is both developers but these two jobs develop in different areas in the IT industry and the work is totally different. As far as I have known, Khang becomes a full-stack developer which means he is able to design and also code. Mostly, full-stack is the one working with full web which is the face of the web and manages to let it work completely. That means he will know a little bit about designing the web to attract users. Although programming and full-stack are absolutely different, we also are able to help each other by the code that we know and the solution. It can be a different language between web development and application development but it is still having the same in thinking and problem solving.  <br><br>Lastly, comparing my ideal’s job with Phong’s ideal job, mine is about creating, maintaining and developing source code meanwhile, Phong’s is supposed to analyze and satisfy the request from clients. Specifically, Phong’s job is the “bridge” between clients and employers in order to guarantee that the product and client’s requirements are suitable. That is why Phong is the person who analyzes the lecturer’s requirements and our project to be suitable. Therefore, his ideal job can help mine to understand and make sure that mine is doing the right way.";
     Collapse(index);
+    nhatCareer.classList.add("CareerPlanCall");
+    setTimeout(function()
+  {
+    var savedHeight=nhatCareer.offsetHeight;
+    savedHeight=savedHeight+ "px";
+    phongCareer.style.height=savedHeight;
+        khoaCareer.style.height=savedHeight;
+            kentCareer.style.height=savedHeight;
+  },500)
   }
 }
 function Collapse(chosen)
@@ -119,6 +164,7 @@ function Collapse(chosen)
     khoaCareer.style.width="10%";
     var childKhoa=khoaCareer.childNodes;
     childKhoa[7].innerHTML="";
+
   }
 }
 function Restretch()
@@ -129,14 +175,107 @@ function Restretch()
   var nhatCareer=document.getElementById('NhatCareer');
   kentCareer.style.width="23%";
   var childKent=kentCareer.childNodes;
-  childKent[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  childKent[7].innerHTML="DataMissing";
   phongCareer.style.width="23%";
   var childPhong=phongCareer.childNodes;
   childPhong[7].innerHTML=" orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
   khoaCareer.style.width="23%";
   var childKhoa=khoaCareer.childNodes;
-  childKhoa[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  childKhoa[7].innerHTML="I have a dream of working in the game industry. Although I have an ideal job, Game Designer, I am ambitious about having my own business. This is quite different from other members in the team.";
   nhatCareer.style.width="23%";
   var childNhat=nhatCareer.childNodes;
-  childNhat[7].innerHTML="orem ipsum dolor sit amet, nec molestie mandamus torquatos ne. No sed dolorum fabellas atomorum. Ex sonet populo duo, ullum error vidisse no nec, ea molestie iudicabit nam. Te cibo salutandi nam, no stet nibh nam. Mel ex duis menandri,tation menandri te sed. Eum at amet inimicus adversarium. Ullum aeterno ea pro, case cibo movet vel an, in sea blandit quaestio rationibus.";
+  childNhat[7].innerHTML="  My ideal job is about to become a game developer which is a programming position. My ideal job is similar to Khoa which is also a game developer. However, Khoa is fond of a design position while developing a game. Design and programming are completely different, design is harder than programming in my opinion. Because it needs to be creative and attractive, which is the face of the product, in this case, it is the face of our game.";
+  phongCareer.style.height='300px';
+  khoaCareer.style.height='300px';
+  kentCareer.style.height='300px';
+  nhatCareer.style.height='300px';
+}
+function ToolShow(index)
+{
+  var tool=document.getElementById('toolContent');
+  if(index==0)
+  {
+    tool.innerHTML="There are both free license and professional one for this program. Unity is a video game engine, we would use Unity to build the game and design maps. Khoa has experienced this program before and he has a few video games made out of this program. He is familiar with making 2D games. <br><br> We will also add some external package to Unity: <br> <br> Monetization package: This is an additional package which we will add to the game later for income. <br> 2D Animation package & PSD Importer package: we will use animation package for real animation while psd imported enables Unity to read photoshop files.";
+  }
+  if(index==1)
+  {
+    tool.innerHTML="this program requires membership or license. Photoshop is a graphic design tool which we will use to create characters, environment, UI. Khoa started learning Photoshop 2 years ago, but, as according to what he said, he is not confident with it and there are more to improve and explore with its vastly features. He opined that Photoshop is an extremely powerful tool in term of graphic.";
+  }
+  if(index==2)
+  {
+    tool.innerHTML="There is a free version for the community. Visual Studio includes C# language which is supported by Unity. Unity supports many programming softwares, however, we chose this due to the IntelliSense. According to our leader, Khoa, this feature is genuinely efficient and it increases productivity. For example, if you type down few keys, a panel appears to show the full sentences and commands, there are even with notes. IntelliSense also enables automatic simple debugging function. It helps reduce work time significantly. ";
+  }
+  if(index==3)
+  {
+      tool.innerHTML="there is a license required to function this program. We will use Spine to test for animation as it is not complicated and flexible. We saw animators on youtube used this program to create animation for videogames. Normally, people will also photoshop with spine to create a fully graphically functioning character, then the characters will exported frame by frame and eventually imported into Unity.";
+  }
+  if(index==4)
+  {
+    tool.innerHTML="require membership or license. We use After Effect to create VFX. This program is shockingly time-efficient users could make an appealing effect like flashing or muzzles after few clicks. Another reason we prefer Ae over others is due to the fact that it allows user to export an animation to frame-by-frame images which is usable in 2D games.";
+  }
+  if(index==6)
+  {
+    tool.innerHTML="No license required. Soundly is used to make Sound effect(sfx). We have not explore this program yet, however, we did see it fantastic library of sound, from animal or alien. As a result, we think this is all we need for sounding.";
+  }
+  if(index==7)
+  {
+    tool.innerHTML="Free website, we will trello to keep track of the work. Khoa used this before during his makings and according to him it is an extremely good tool for managing the project. Basically, what we do with this tool is that we create notes and todo list and once the work is done we drag that notes to completed area.";
+  }
+  if(index==5)
+  {
+    tool.innerHTML="This is a free Website. We use Songmaker for background music. It is simple but amazing, the tune is melodious, we think creating we could create a beautiful song with the support of this program. A 2D video game does not require an epic music so this should be the most appropriate to our project.";
+  }
+  if(index==8)
+  {
+    tool.innerHTML="Free program. Our plan is to publish the game onto Stream. It is a gamer's heaven as well as developers, lots of player are willing to pay for playing. So we think we would earn bread and butter out of this.";
+  }
+  if(index==9)
+  {
+    tool.innerHTML="Hardware requirements: Ram 8GB- Hard drive 250GB: We believe those hardware are essential to create 2D video games smoothly. We may consider an additional screen, due to the fact that seniors preferred that. Moreover, Unity no longer support 32 bit system so it is better to use 64-bit which hardware's condition is about 8GB in RAM for smoothly operation. A video game may seem light but the data and information without compression is unbelievably heavy. A 200MB video game could take up to 15GB in the creators' hardive.";
+  }
+
+}
+function FBSelection(index)
+{
+  var title=document.getElementById("Title_FB");
+  var khoa=document.getElementById("Khoa_FB");
+  var kent=document.getElementById("Kent_FB");
+  var phong=document.getElementById("Phong_FB");
+  var nhat=document.getElementById("Nhat_FB");
+  if(index==0)
+  {
+    title.innerHTML="Khoa's Antifan";
+    khoa.innerHTML="I'm the leader of Crafty Circus, I think in this assignment, we have done a better job with work distribution, though, I still have to do more work than other members as I am the only person who has experience in video games in the group but I think it  worth it. Overall, I am happy with my performance in the team as a leader.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==1)
+  {
+    title.innerHTML="Kent's Antifan";
+    khoa.innerHTML="Kent shows such an improvement in this assignment too. Although he is a bit careless at writing and often falls into freestyle writing rather than an academic one, he listens to us and is ready to repair his underwork. In general, he takes more responsibility in this assignment and it is a good sign.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==2)
+  {
+    title.innerHTML="Phong's Antifan";
+    khoa.innerHTML="Phong is genuinely a hardworking student, he has to undertake difficult tasks too. We were happy with the content he showed in the last assignment, so I had no worry to entrust him with the major content. The result is he does not turn everyone down this time and actually he got all commits on time.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+  if(index==3)
+  {
+    title.innerHTML="Nhat's Antifan";
+    khoa.innerHTML="Nhat is also a person I feel confident when assigning tasks. He is always punctual, way too punctual, his content is fantastic and sometimes, he took it seriously on a minor content. However, there are still some issues with him, he could not join our discussion and take work passively. So I hope he will be more proactive in the future.";
+    kent.innerHTML="";
+    phong.innerHTML="";
+    nhat.innerHTML="";
+  }
+}
+function Alert()
+{
+  alert(" You can not do this, sadly");
 }
