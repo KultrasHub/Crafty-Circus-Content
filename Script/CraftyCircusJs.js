@@ -262,26 +262,16 @@ function FBSelection(index)
   {
     title.innerHTML="Phong's Antifan";
     khoa.innerHTML="Phong is genuinely a hardworking student, he has to undertake difficult tasks too. We were happy with the content he showed in the last assignment, so I had no worry to entrust him with the major content. The result is he does not turn everyone down this time and actually he got all commits on time.";
-<<<<<<< HEAD
     kent.innerHTML="Phong in Assignment 3 is the member who undertake the content the most and still completes it well. He also helps me a lot with my content writing.";
-    phong.innerHTML="";
-=======
-    kent.innerHTML="";
     phong.innerHTML="At this moment after almost ten weeks working together as a group through project two and three I have finally gotten a wider understanding and the strengths, limitations of each member of the group. Before talking about other members, judging from my own personal performance in the assignment three, I can finally confidently say that my time management on working and completing my part as well as helping other group mates with their tasks has improved a lot compared to the last assignment that we did. I managed to deliver my necessary information about the assignment that the group needed at the ideal time with good quality.";
->>>>>>> 908be84c17f0ca4d8655b6a08f45faf0ca4ab967
     nhat.innerHTML="";
   }
   if(index==3)
   {
     title.innerHTML="Nhat's Antifan";
     khoa.innerHTML="Nhat is also a person I feel confident when assigning tasks. He is always punctual, way too punctual, his content is fantastic and sometimes, he took it seriously on a minor content. However, there are still some issues with him, he could not join our discussion and take work passively. So I hope he will be more proactive in the future.";
-<<<<<<< HEAD
     kent.innerHTML="Although the individual time is very busy for Nhật, he still completes all assigned tasks, but like the last Assignment Nhật still missed group meetings sometime and the least communication to overcome and arrange the time.";
-    phong.innerHTML="";
-=======
-    kent.innerHTML="";
     phong.innerHTML="Nhat has outdone himself with his section providing extremely detailed descriptions and works. Not only that but he also stood up and took one of the questions that demanded a high amount of accuracy, actively participating with the group work and providing his assistance after he finished his part. Overall I would say that he has proven himself with his huge contribution on this assignment.";
->>>>>>> 908be84c17f0ca4d8655b6a08f45faf0ca4ab967
     nhat.innerHTML="";
   }
 }
