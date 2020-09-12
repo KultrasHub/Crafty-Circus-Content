@@ -246,7 +246,7 @@ function FBSelection(index)
   {
     title.innerHTML="Khoa's Antifan";
     khoa.innerHTML="I'm the leader of Crafty Circus, I think in this assignment, we have done a better job with work distribution, though, I still have to do more work than other members as I am the only person who has experience in video games in the group but I think it  worth it. Overall, I am happy with my performance in the team as a leader.";
-    kent.innerHTML="";
+    kent.innerHTML=" About Kultras, he takes responsibility for the code part, and it has completed a very good job, even helping other members when having trouble.";
     phong.innerHTML="";
     nhat.innerHTML="";
   }
@@ -254,7 +254,7 @@ function FBSelection(index)
   {
     title.innerHTML="Kent's Antifan";
     khoa.innerHTML="Kent shows such an improvement in this assignment too. Although he is a bit careless at writing and often falls into freestyle writing rather than an academic one, he listens to us and is ready to repair his underwork. In general, he takes more responsibility in this assignment and it is a good sign.";
-    kent.innerHTML="";
+    kent.innerHTML="As for myself, I feel that I have not done very well when I do wrong some assigned tasks, but I still try to fix and complete it within the time set, and I need to fix this rare problem.";
     phong.innerHTML="";
     nhat.innerHTML="";
   }
@@ -262,7 +262,7 @@ function FBSelection(index)
   {
     title.innerHTML="Phong's Antifan";
     khoa.innerHTML="Phong is genuinely a hardworking student, he has to undertake difficult tasks too. We were happy with the content he showed in the last assignment, so I had no worry to entrust him with the major content. The result is he does not turn everyone down this time and actually he got all commits on time.";
-    kent.innerHTML="";
+    kent.innerHTML="Phong in Assignment 3 is the member who undertake the content the most and still completes it well. He also helps me a lot with my content writing.";
     phong.innerHTML="";
     nhat.innerHTML="";
   }
@@ -270,7 +270,7 @@ function FBSelection(index)
   {
     title.innerHTML="Nhat's Antifan";
     khoa.innerHTML="Nhat is also a person I feel confident when assigning tasks. He is always punctual, way too punctual, his content is fantastic and sometimes, he took it seriously on a minor content. However, there are still some issues with him, he could not join our discussion and take work passively. So I hope he will be more proactive in the future.";
-    kent.innerHTML="";
+    kent.innerHTML="Although the individual time is very busy for Nhật, he still completes all assigned tasks, but like the last Assignment Nhật still missed group meetings sometime and the least communication to overcome and arrange the time.";
     phong.innerHTML="";
     nhat.innerHTML="";
   }
