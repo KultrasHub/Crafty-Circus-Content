@@ -286,7 +286,7 @@ header button:hover {
   opacity: .3;
   }
   50%{
-    height: 500px;
+    height: 450px;
   opacity: .9;
   }
   100%{
@@ -1320,4 +1320,9 @@ font-weight: 600;
   color: #aaa;
   font-size: 14px;
   line-height: 1.5;
+}
+.Skill_Job h2{
+  color:#bbb;
+  font-size: 20px;
+  font-weight: 900;
 }
