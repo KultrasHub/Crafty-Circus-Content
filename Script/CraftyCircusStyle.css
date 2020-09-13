@@ -989,9 +989,6 @@ text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   transform: skewY(-6deg);
 }
-.TimeFrame{
-  height:500px;
-}
 #Risk{
   margin-top: 40px;
   height: auto;
@@ -1325,4 +1322,111 @@ font-weight: 600;
   color:#bbb;
   font-size: 20px;
   font-weight: 900;
+}
+.TimeFrame{
+  position: relative;
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+}
+.TimeFrame .timeLine:nth-child(2n)
+{
+  margin-top: 40px;
+  position: relative;
+  width: 90%;
+  margin-left: 10%;
+  border-top: 4px solid #950740;
+  display: flex;
+  float: left;
+}
+.TimeFrame .timeLine:nth-child(2n) .content{
+  position: relative;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+  width: 28%;
+  padding: 20px 2%;
+  display: flex;
+  float: left;
+}
+.TimeFrame p{
+  color:#950740;
+  position: absolute;
+  top: 0px;
+  left: 13%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.timeLine .content .subcontent{
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #24252d;
+  border: 3px solid #950740;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 1000;
+  top:-20px;
+  left:0;
+}
+.TimeFrame .timeLine:nth-child(2n+1)
+{
+    margin-top: 40px;
+  position: relative;
+  width: 100%;
+  border-top: 4px solid #950740;
+  display: flex;
+  float: left;
+}
+.TimeFrame .endtimeLine
+{
+    margin-top: 40px;
+  position: relative;
+  width: 60%;
+  border-top: 4px solid #950740;
+  display: flex;
+  float: left;
+}
+.TimeFrame .timeLine:nth-child(2n+1) .content{
+  position: relative;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+  width: 20%;
+  padding: 20px 2%;
+  display: flex;
+  float: left;
+}
+.TimeFrame .endtimeLine .content{
+  position: relative;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.5;
+  width: 50%;
+  padding: 20px 2%;
+  display: flex;
+  float: left;
+}
+.endtimeLine .content .subcontent{
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #24252d;
+  border: 3px solid #950740;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 1000;
+  top:-20px;
+  left:0;
 }
