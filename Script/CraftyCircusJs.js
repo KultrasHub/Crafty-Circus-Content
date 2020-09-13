@@ -277,5 +277,9 @@ function FBSelection(index)
 }
 function Alert()
 {
-  alert(" You can not do this, sadly");
+  alert("What do all websites have in common? click OK to see the answer.");
+  setTimeout(function()
+{
+  alert("THE END");
+},3000)
 }
