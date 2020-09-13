@@ -247,7 +247,7 @@ function FBSelection(index)
     title.innerHTML="Khoa's Antifan";
     khoa.innerHTML="I'm the leader of Crafty Circus, I think in this assignment, we have done a better job with work distribution, though, I still have to do more work than other members as I am the only person who has experience in video games in the group but I think it  worth it. Overall, I am happy with my performance in the team as a leader.";
     kent.innerHTML=" About Kultras, he takes responsibility for the code part, and it has completed a very good job, even helping other members when having trouble.";
-    phong.innerHTML="";
+    phong.innerHTML="Khoa still remains the strongest member of the group as he mostly take part in making the website again while completing his assigned sections, additionally one of the challenges that he has to take is showing the rest of the member how to design and partially demonstrate on how to use the project-related applications which was double the amount of work that other members have to do, yet he still manages to make it on time of the assigned due date, I am very glad that I got to work with him throughout our group assignment.";
     nhat.innerHTML="";
   }
   if(index==1)
@@ -255,7 +255,7 @@ function FBSelection(index)
     title.innerHTML="Kent's Antifan";
     khoa.innerHTML="Kent shows such an improvement in this assignment too. Although he is a bit careless at writing and often falls into freestyle writing rather than an academic one, he listens to us and is ready to repair his underwork. In general, he takes more responsibility in this assignment and it is a good sign.";
     kent.innerHTML="As for myself, I feel that I have not done very well when I do wrong some assigned tasks, but I still try to fix and complete it within the time set, and I need to fix this rare problem.";
-    phong.innerHTML="";
+    phong.innerHTML="Khang has shown me a lot of his focus towards the assignment throughout the working period. Because all of my courses I share with Khang while I was studying with him, the one thing that he keeps mentioning is the questions he has on his section which reflects back on how much he cares for this assignments and how he wants to perfect his section so that the group can have a well-informed product.";
     nhat.innerHTML="";
   }
   if(index==2)
