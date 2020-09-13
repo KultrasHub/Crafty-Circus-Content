@@ -248,7 +248,7 @@ function FBSelection(index)
     khoa.innerHTML="I'm the leader of Crafty Circus, I think in this assignment, we have done a better job with work distribution, though, I still have to do more work than other members as I am the only person who has experience in video games in the group but I think it  worth it. Overall, I am happy with my performance in the team as a leader.";
     kent.innerHTML=" About Kultras, he takes responsibility for the code part, and it has completed a very good job, even helping other members when having trouble.";
     phong.innerHTML="Khoa still remains the strongest member of the group as he mostly take part in making the website again while completing his assigned sections, additionally one of the challenges that he has to take is showing the rest of the member how to design and partially demonstrate on how to use the project-related applications which was double the amount of work that other members have to do, yet he still manages to make it on time of the assigned due date, I am very glad that I got to work with him throughout our group assignment.";
-    nhat.innerHTML="";
+    nhat.innerHTML="During the last assignment, Khoa is the one who works hard the most because he is always the one who reminded us to complete our tasks before the deadline. His coding skill is pretty much better than one of us. Thanks to him, we can have a better website which is more eye catching than other groups. ";
   }
   if(index==1)
   {
@@ -256,7 +256,7 @@ function FBSelection(index)
     khoa.innerHTML="Kent shows such an improvement in this assignment too. Although he is a bit careless at writing and often falls into freestyle writing rather than an academic one, he listens to us and is ready to repair his underwork. In general, he takes more responsibility in this assignment and it is a good sign.";
     kent.innerHTML="As for myself, I feel that I have not done very well when I do wrong some assigned tasks, but I still try to fix and complete it within the time set, and I need to fix this rare problem.";
     phong.innerHTML="Khang has shown me a lot of his focus towards the assignment throughout the working period. Because all of my courses I share with Khang while I was studying with him, the one thing that he keeps mentioning is the questions he has on his section which reflects back on how much he cares for this assignments and how he wants to perfect his section so that the group can have a well-informed product.";
-    nhat.innerHTML="";
+    nhat.innerHTML="This time, Khang is more productive than previous assignments even though there are some mistakes that he made in his tasks, he was able to handle it as soon as possible and before the deadline. However, there are still some areas in his tasks which are not academic writing. Hopefully, he could change that in the next assignment while we will be in the group.";
   }
   if(index==2)
   {
@@ -264,7 +264,7 @@ function FBSelection(index)
     khoa.innerHTML="Phong is genuinely a hardworking student, he has to undertake difficult tasks too. We were happy with the content he showed in the last assignment, so I had no worry to entrust him with the major content. The result is he does not turn everyone down this time and actually he got all commits on time.";
     kent.innerHTML="Phong in Assignment 3 is the member who undertake the content the most and still completes it well. He also helps me a lot with my content writing.";
     phong.innerHTML="At this moment after almost ten weeks working together as a group through project two and three I have finally gotten a wider understanding and the strengths, limitations of each member of the group. Before talking about other members, judging from my own personal performance in the assignment three, I can finally confidently say that my time management on working and completing my part as well as helping other group mates with their tasks has improved a lot compared to the last assignment that we did. I managed to deliver my necessary information about the assignment that the group needed at the ideal time with good quality.";
-    nhat.innerHTML="";
+    nhat.innerHTML="About Phong, his spirit is the same as the previous one, he is working very hard in order not to let the team down. Therefore, he is always asking for help to finish the tasks before the deadline and then fix it to be more professional and help other members.  ";
   }
   if(index==3)
   {
@@ -272,7 +272,7 @@ function FBSelection(index)
     khoa.innerHTML="Nhat is also a person I feel confident when assigning tasks. He is always punctual, way too punctual, his content is fantastic and sometimes, he took it seriously on a minor content. However, there are still some issues with him, he could not join our discussion and take work passively. So I hope he will be more proactive in the future.";
     kent.innerHTML="Although the individual time is very busy for Nhật, he still completes all assigned tasks, but like the last Assignment Nhật still missed group meetings sometime and the least communication to overcome and arrange the time.";
     phong.innerHTML="Nhat has outdone himself with his section providing extremely detailed descriptions and works. Not only that but he also stood up and took one of the questions that demanded a high amount of accuracy, actively participating with the group work and providing his assistance after he finished his part. Overall I would say that he has proven himself with his huge contribution on this assignment.";
-    nhat.innerHTML="";
+    nhat.innerHTML="Lastly, in this assignment, I was not able to finish my tasks before the deadline because I was not good at managing my timetable effectively. All my tasks and assignments clashed with each other therefore, I had to ask them to give me some extra days. Luckily, I was allowed to have extra days, I got tasks done before the extra days deadline. ";
   }
 }
 function Alert()
