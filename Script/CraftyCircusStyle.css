@@ -635,7 +635,7 @@ header button:hover {
   line-height: 1.5;
 }
 .parallax{
-  background-image: url('/NexieCalculation.jpg');
+  background-image: url('NexieCalculation.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -671,7 +671,7 @@ header button:hover {
 }
 .Roleparallax{
   margin-top: 40px;
-  background-image: url('/Asset/Picture/NexieRole.jpg');
+  background-image: url('Asset/Picture/NexieRole.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -968,7 +968,7 @@ text-transform: uppercase;
     display: inline-flex;
 }
 .TimeFrameparallax{
-  background-image: url('/Asset/Picture/TimeFreeze.jpg');
+  background-image: url('Asset/Picture/TimeFreeze.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
