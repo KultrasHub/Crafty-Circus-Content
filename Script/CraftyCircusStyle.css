@@ -635,7 +635,7 @@ header button:hover {
   line-height: 1.5;
 }
 .parallax{
-  background-image: url('~NexieCalculation.jpg');
+  background-image: url('../NexieCalculation.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
