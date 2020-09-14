@@ -199,7 +199,7 @@ function ToolShow(index)
   }
   if(index==1)
   {
-    tool.innerHTML="this program requires membership or license. Photoshop is a graphic design tool which we will use to create characters, environment, UI. Khoa started learning Photoshop 2 years ago, but, as according to what he said, he is not confident with it and there are more to improve and explore with its vastly features. He opined that Photoshop is an extremely powerful tool in term of graphic.";
+    tool.innerHTML="This program requires membership or license. Photoshop is a graphic design tool which we will use to create characters, environment, UI. Khoa started learning Photoshop 2 years ago, but, as according to what he said, he is not confident with it and there are more to improve and explore with its vastly features. He opined that Photoshop is an extremely powerful tool in term of graphic.";
   }
   if(index==2)
   {
@@ -207,11 +207,11 @@ function ToolShow(index)
   }
   if(index==3)
   {
-      tool.innerHTML="there is a license required to function this program. We will use Spine to test for animation as it is not complicated and flexible. We saw animators on youtube used this program to create animation for videogames. Normally, people will also photoshop with spine to create a fully graphically functioning character, then the characters will exported frame by frame and eventually imported into Unity.";
+      tool.innerHTML="There is a license required to function this program. We will use Spine to test for animation as it is not complicated and flexible. We saw animators on youtube used this program to create animation for videogames. Normally, people will also photoshop with spine to create a fully graphically functioning character, then the characters will exported frame by frame and eventually imported into Unity.";
   }
   if(index==4)
   {
-    tool.innerHTML="require membership or license. We use After Effect to create VFX. This program is shockingly time-efficient users could make an appealing effect like flashing or muzzles after few clicks. Another reason we prefer Ae over others is due to the fact that it allows user to export an animation to frame-by-frame images which is usable in 2D games.";
+    tool.innerHTML="Require membership or license. We use After Effect to create VFX. This program is shockingly time-efficient users could make an appealing effect like flashing or muzzles after few clicks. Another reason we prefer Ae over others is due to the fact that it allows user to export an animation to frame-by-frame images which is usable in 2D games.";
   }
   if(index==6)
   {
