@@ -671,7 +671,7 @@ header button:hover {
 }
 .Roleparallax{
   margin-top: 40px;
-  background-image: url('./Asset/Picture/NexieRole.jpg');
+  background-image: url('../../Asset/Picture/NexieRole.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
