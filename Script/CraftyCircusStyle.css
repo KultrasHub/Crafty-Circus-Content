@@ -77,14 +77,14 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: #0088a9;
+  color: #c3073f;
 }
 
 header button {
   margin-right: 140px;
   font-size: 16px;
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: rgba(195, 7, 63, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -93,7 +93,7 @@ header button {
 }
 
 header button:hover {
-  background-color: rgba(0, 136, 169, .75);
+  background-color: rgba(195, 7, 63, .6);
 }
 
 #Kultras {
@@ -1328,6 +1328,7 @@ font-weight: 600;
   margin-top: 100px;
   width: 100%;
   height: auto;
+  margin-bottom: 40px;
 }
 .TimeFrame .timeLine:nth-child(2n)
 {
