@@ -64,7 +64,7 @@ function CareerPlan(index)
     //stretch the chosen container
     kentCareer.style.width="62%";
     var child=kentCareer.childNodes;
-    child[7].innerHTML="To add a level of complexity to your transitions, you can use the power of cubic beziers. Most of the time, if you’re just developing websites, you probably won’t need to mess with cubic beziers much. But, if you do and because I am barely competent with math (d’aww), I will let someone who is much better with numbers do the hard work to explain those. Check out The Art of Web for their excellent cubic bezier documentation. Transitions also work with images and can create some really cool effects. In fact, you can make entire slideshows with CSS transitions and images. But we’ll be covering that in another tutorial that’s coming soon!";
+    child[7].innerHTML="My ideal job is a Full-stack. And it is a lot different from the other team member's career. My type of job is professional in web design and programming. I have the ambition to assemble my team to undertake many big and small projects and start-up my IT reputation by working in a company first. <br><br>Compare to Kultras, his career plan is the most different from me while his future job is a professional in-game field, but I was in the web field. Our career plan was far different; he also tends to start-up while choosing myself a company. <br><br>With Phong, his path is a software engineer, which means working directly with electronic devices that create, upgrade, and maintain them so that everyone can use the web. Our type of job is different, but Phong field supports mine and Kultras neither.<br><br> Compared to the rest of the member Nhật's field is as wide as a conductor. It includes Phong and Kultras' trades, but it is two mutual support areas with my job.";
     Collapse(index);
     phongCareer.classList.add("CareerPlanCall");
     setTimeout(function()
@@ -175,7 +175,7 @@ function Restretch()
   var nhatCareer=document.getElementById('NhatCareer');
   kentCareer.style.width="23%";
   var childKent=kentCareer.childNodes;
-  childKent[7].innerHTML="DataMissing";
+  childKent[7].innerHTML="My ideal job is a Full-stack. And it is a lot different from the other team member's career. My type of job is professional in web design and programming. I have the ambition to assemble my team to undertake many big and small projects and start-up my IT reputation by working in a company first.";
   phongCareer.style.width="23%";
   var childPhong=phongCareer.childNodes;
   childPhong[7].innerHTML=" My ideal job was to be a software engineer. But the more I get to work in a simulated I.T environment the more I prefer to be working as a freelancer, being a freelancer means I get to work with a more flexible environment and encounter a broader kinds of work without sticking to one genre. Khoa’s career plan for the future is self-employment in the gaming industry. The most similar thing from my career plan and Khoa’s is probably the self-employment element, since being";
