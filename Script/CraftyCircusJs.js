@@ -195,43 +195,43 @@ function ToolShow(index)
   var tool=document.getElementById('toolContent');
   if(index==0)
   {
-    tool.innerHTML="There are both free license and professional one for this program. Unity is a video game engine, we would use Unity to build the game and design maps. Khoa has experienced this program before and he has a few video games made out of this program. He is familiar with making 2D games. <br><br> We will also add some external package to Unity: <br> <br> Monetization package: This is an additional package which we will add to the game later for income. <br> 2D Animation package & PSD Importer package: we will use animation package for real animation while psd imported enables Unity to read photoshop files.";
+    tool.innerHTML="There are both free licenses and professional one for this program. Unity is a video game engine, we would use Unity to build the game and design maps. Khoa has experienced this program before and he has a few video games made out of this program. He is familiar with making 2D games. <br><br> We will also add some external package to Unity: <br> <br> Monetization package: This is an additional package which we will add to the game later for income. <br> 2D Animation package & PSD Importer package: we will use animation package for real animation while psd imported enables Unity to read photoshop files.";
   }
   if(index==1)
   {
-    tool.innerHTML="This program requires membership or license. Photoshop is a graphic design tool which we will use to create characters, environment, UI. Khoa started learning Photoshop 2 years ago, but, as according to what he said, he is not confident with it and there are more to improve and explore with its vastly features. He opined that Photoshop is an extremely powerful tool in term of graphic.";
+    tool.innerHTML="This program requires membership or license. Photoshop is a graphic design tool which we will use to create characters, environment, UI. Khoa started learning Photoshop 2 years ago, but, according to what he said, he is not confident with it and there are more to improve and explore with its vast features. He opined that Photoshop is an extremely powerful tool in terms of graphics.";
   }
   if(index==2)
   {
-    tool.innerHTML="There is a free version for the community. Visual Studio includes C# language which is supported by Unity. Unity supports many programming softwares, however, we chose this due to the IntelliSense. According to our leader, Khoa, this feature is genuinely efficient and it increases productivity. For example, if you type down few keys, a panel appears to show the full sentences and commands, there are even with notes. IntelliSense also enables automatic simple debugging function. It helps reduce work time significantly. ";
+    tool.innerHTML="There is a free version for the community. Visual Studio includes C# language which is supported by Unity. Unity supports many programming softwares, however, we chose this due to the IntelliSense. According to our leader, Khoa, this feature is genuinely efficient and it increases productivity. For example, if you type down a few keys, a panel appears to show the full sentences and commands, there are even notes. IntelliSense also enables automatic simple debugging. It helps reduce work time significantly. ";
   }
   if(index==3)
   {
-      tool.innerHTML="There is a license required to function this program. We will use Spine to test for animation as it is not complicated and flexible. We saw animators on youtube used this program to create animation for videogames. Normally, people will also photoshop with spine to create a fully graphically functioning character, then the characters will exported frame by frame and eventually imported into Unity.";
+      tool.innerHTML="There is a license required to function this program. We will use Spine to test for animation as it is not complicated and flexible. We saw animators on youtube used this program to create animation for video games. Normally, people will also photoshop with spine to create a fully graphically functioning character, then the characters will be exported frame by frame and eventually imported into Unity.";
   }
   if(index==4)
   {
-    tool.innerHTML="Require membership or license. We use After Effect to create VFX. This program is shockingly time-efficient users could make an appealing effect like flashing or muzzles after few clicks. Another reason we prefer Ae over others is due to the fact that it allows user to export an animation to frame-by-frame images which is usable in 2D games.";
+    tool.innerHTML="Requires membership or license. We use After Effect to create VFX. This program is shockingly time-efficient and users could make an appealing effect like flashing or muzzles after a few clicks. Another reason we prefer Ae over others is due to the fact that it allows users to export an animation to frame-by-frame images which is usable in 2D games.";
   }
   if(index==6)
   {
-    tool.innerHTML="No license required. Soundly is used to make Sound effect(sfx). We have not explore this program yet, however, we did see it fantastic library of sound, from animal or alien. As a result, we think this is all we need for sounding.";
+    tool.innerHTML="No license required. Soundly is used to make Sound effect(sfx). We have not explored this program yet, however, we did see its fantastic library of sound, from animals or aliens. As a result, we think this is all we need for sounding.";
   }
   if(index==7)
   {
-    tool.innerHTML="Free website, we will trello to keep track of the work. Khoa used this before during his makings and according to him it is an extremely good tool for managing the project. Basically, what we do with this tool is that we create notes and todo list and once the work is done we drag that notes to completed area.";
+    tool.innerHTML="Free website, we will trello to keep track of the work. Khoa used this before during his makings and according to him it is an extremely good tool for managing the project. Basically, what we do with this tool is that we create notes and todo lists and once the work is done we drag that notes to the completed area.";
   }
   if(index==5)
   {
-    tool.innerHTML="This is a free Website. We use Songmaker for background music. It is simple but amazing, the tune is melodious, we think creating we could create a beautiful song with the support of this program. A 2D video game does not require an epic music so this should be the most appropriate to our project.";
+    tool.innerHTML="This is a free Website. We use Songmaker for background music. It is simple but amazing, the tune is melodious, we think we could create a beautiful song with the support of this program. A 2D video game does not require epic music so this should be the most appropriate to our project.";
   }
   if(index==8)
   {
-    tool.innerHTML="Free program. Our plan is to publish the game onto Stream. It is a gamer's heaven as well as developers, lots of player are willing to pay for playing. So we think we would earn bread and butter out of this.";
+    tool.innerHTML="Free program. Our plan is to publish the game onto Stream. It is a gamer's heaven as well as developers, lots of players are willing to pay for playing. So we think we would earn bread and butter out of this.";
   }
   if(index==9)
   {
-    tool.innerHTML="Hardware requirements: Ram 8GB- Hard drive 250GB: We believe those hardware are essential to create 2D video games smoothly. We may consider an additional screen, due to the fact that seniors preferred that. Moreover, Unity no longer support 32 bit system so it is better to use 64-bit which hardware's condition is about 8GB in RAM for smoothly operation. A video game may seem light but the data and information without compression is unbelievably heavy. A 200MB video game could take up to 15GB in the creators' hardive.";
+    tool.innerHTML="Hardware requirements: Ram 8GB- Hard drive 250GB: We believe those hardware are essential to create 2D video games smoothly. We may consider an additional screen, due to the fact that seniors preferred that. Moreover, Unity no longer supports 32 bit systems so it is better to use 64-bit which hardware's condition is about 8GB in RAM for smooth operation. A video game may seem light but the data and information without compression is unbelievably heavy. A 200MB video game could take up to 15GB in the creators' hard drive.";
   }
 
 }
